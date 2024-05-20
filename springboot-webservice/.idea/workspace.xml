@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ab7f60a-e478-461f-8a3e-ef3cc17440ef" name="Changes" comment="commit" />
+    <list default="true" id="0ab7f60a-e478-461f-8a3e-ef3cc17440ef" name="Changes" comment="commitd">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kwan/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +46,7 @@
     "Application.BaseBallGame.executor": "Run",
     "Application.BaseballGame.executor": "Run",
     "Gradle.Build springboot-webservice.executor": "Run",
+    "Gradle.Tests in 'springboot-webservice.test'.executor": "Debug",
     "Gradle.springboot-webservice [:BaseBallGame.main()].executor": "Run",
     "Gradle.springboot-webservice [:BaseballGame.main()].executor": "Debug",
     "Gradle.springboot-webservice [:baseball.main()].executor": "Run",
@@ -57,6 +60,35 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.kwan" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tests in 'springboot-webservice.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'springboot-webservice.test'" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,12 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716186677811</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commitd">
+      <option name="closed" value="true" />
+      <created>1716187135867</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716187135867</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="commitd" />
+    <option name="LAST_COMMIT_MESSAGE" value="commitd" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springboot_webservice$BaseballGame.ic" NAME="BaseballGame Coverage Results" MODIFIED="1716185821649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
